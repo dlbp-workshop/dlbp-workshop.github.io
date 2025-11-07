@@ -96,10 +96,10 @@
                 <a href="https://mbzuai.ac.ae/study/faculty/kun-zhang/"><b>Kun Zhang</b></a> (MBZUAI)
             </td>
         </tr>
-        <!-- <tr>
+        <tr>
             <td class="abstract">
-                We present a new perspective on online learning that we refer to as gradient equilibrium: a sequence of iterates achieves gradient equilibrium if the average of gradients of losses along the sequence converges to zero. In general, this condition is not implied by, nor implies, sublinear regret. It turns out that gradient equilibrium is achievable by standard online learning methods such as gradient descent and mirror descent with constant step sizes (rather than decaying step sizes, as is usually required for no regret). Further, as we show through examples, gradient equilibrium translates into an interpretable and meaningful property in online prediction problems spanning regression, classification, quantile estimation, and others. Notably, we show that the gradient equilibrium framework can be used to develop a debiasing scheme for black-box predictions under arbitrary distribution shift, based on simple post hoc online descent updates. We also show that post hoc gradient updates can be used to calibrate predicted quantiles under distribution shift, and that the framework leads to unbiased Elo scores for pairwise preference prediction.  [with Anastasios Angelopoulos and Ryan Tibshirani].
-        </td></tr> -->
+                Causality is a fundamental notion in science, engineering, and even in machine learning. Uncovering the causal process behind observed data can naturally help answer 'why' and 'how' questions, inform optimal decisions, and achieve adaptive prediction. In many scenarios, observed variables (such as image pixels and questionnaire results) are often reflections of the underlying causal variables, instead of causal variables themselves. Causal representation learning aims to reveal the underlying hidden causal variables and their relations. In this talk, we show how the modularity property of causal systems makes it possible to recover the underlying causal representations from observational data with identifiability guarantees: under appropriate assumptions, the learned representations are consistent with the underlying causal process. We demonstrate how identifiable causal representation learning can naturally benefit generative AI, with image generation, image editing, and text generation as particular examples.
+        </td></tr>
     </tbody></table>
 
       <table>
@@ -132,10 +132,10 @@
                 <a href="https://mbzuai.ac.ae/study/faculty/jin-tian/"><b>Jin Tian</b></a> (MBZUAI)
             </td>
         </tr>
-       <!--  <tr>
+       <tr>
             <td class="abstract">
-                We consider a dynamic mechanism design problem where an auctioneer sells an indivisible good to groups of buyers in every round, for a total of T rounds. The auctioneer aims to maximize their discounted overall revenue while adhering to a fairness constraint that guarantees a minimum average allocation for each group. We begin by studying the static case (T=1) and establish that the optimal mechanism involves two types of subsidization: one that increases the overall probability of allocation to all buyers, and another that favors the groups which otherwise have a lower probability of winning the item. We then extend our results to the dynamic case by characterizing a set of recursive functions that determine the optimal allocation and payments in each round. Notably, our results establish that in the dynamic case, the seller, on the one hand, commits to a participation bonus to incentivize truth-telling, and on the other hand, charges an entry fee for every round. Moreover, the optimal allocation once more involves subsidization, which its extent depends on the difference in future utilities for both the seller and buyers when allocating the item to one group versus the others. Finally, we present an approximation scheme to solve the recursive equations and determine an approximately optimal and fair allocation efficiently. Based on joint work with Annie Ulichney and Michael I. Jordan.
-        </td></tr> -->
+                Causal effect measures are fundamental to understanding interventions and play key roles in causal explanation, decision-making, and responsibility attribution. Traditional measures, such as the Average Causal Effect (ACE), summarize causal relationships through averages but often obscure important heterogeneity in effects across individuals or subpopulations. In this talk, we introduce a set of new causal effect measures designed to capture and interpret causal heterogeneity. After reviewing standard measures and the Probabilities of Causation framework, we introduce new metrics that extend these ideas to continuous treatments and outcomes, propose characterizing the distribution of causal effects through its moments (variance, skewness, kurtosis), and present new measures for decision-making under multiple actions. Finally, we outline identification and bounding results for these measures under common causal assumptions, and illustrate their use in real-world applications.
+        </td></tr>
     </tbody></table>
 
    
@@ -154,11 +154,9 @@
                 <a href="https://sites.google.com/view/yihongg/home"><b>Yihong Gu</b></a> (Harvard)
             </td>
         </tr>
-        <!-- <tr>
+        <tr>
             <td class="abstract">
-            Contextual bandit algorithms are ubiquitous tools for active sequential experimentation in healthcare and the tech industry. They involve online learning algorithms that adaptively learn policies over time to map observed contexts to actions in an attempt to maximize stochastic rewards. This adaptivity raises interesting but hard statistical inference questions, especially counterfactual ones: for example, it is often of interest to estimate the properties of a hypothetical policy that is different from the logging policy that was used to collect the data -- a problem known as "off-policy evaluation" (OPE). Using modern martingale techniques, we present a comprehensive framework for OPE inference that relax unnecessary conditions made in some past works, significantly improving on them both theoretically and empirically. Importantly, our methods can be employed while the original experiment is still running (that is, not necessarily post-hoc), when the logging policy may be itself changing (due to learning), and even if the context distributions are a highly dependent time-series (such as if they are drifting over time). More concretely, we derive confidence sequences for various functionals of interest in OPE. These include doubly robust ones for time-varying off-policy mean reward values, but also confidence bands for the entire cumulative distribution function of the off-policy reward distribution. All of our methods (a) are valid at arbitrary stopping times (b) only make nonparametric assumptions, (c) do not require importance weights to be uniformly bounded and if they are, we do not need to know these bounds, and (d) adapt to the empirical variance of our estimators. In summary, our methods enable anytime-valid off-policy inference using adaptively collected contextual bandit data.
-
-            This is joint work with Lili Wu, Aaditya Ramdas, Nikos Karampatziakis, and Paul Mineiro.        </td></tr> -->
+            Pursuing causality from data is a fundamental problem in scientific discovery, treatment intervention, and transfer learning. In this talk, we introduce a novel algorithmic method for addressing nonparametric invariance and causality learning in regression models across multiple environments, where the joint distribution of response variables and covariates varies, but the conditional expectations of outcome given an unknown set of quasi-causal variables are invariant. The challenge of finding such an unknown set of quasi-causal or invariant variables is compounded by the presence of endogenous variables that have heterogeneous effects across different environments. The proposed Focused Adversarial Invariant Regularization (FAIR) framework utilizes an innovative minimax optimization approach that drives regression models toward prediction-invariant solutions through adversarial testing. Leveraging the representation power of neural networks, FAIR neural networks (FAIR-NN) are introduced for causality pursuit. It is shown that FAIR-NN can find the invariant variables and quasi-causal variables under a minimal identification condition and that the resulting procedure is adaptive to low-dimensional composition structures in a non-asymptotic analysis. Under a structural causal model, variables identified by FAIR-NN represent pragmatic causality and provably align with exact causal mechanisms under conditions of sufficient heterogeneity. Computationally, FAIR-NN employs a novel Gumbel approximation with decreased temperature and a stochastic gradient descent ascent algorithm. Finally, we also discuss the intrinsic computational hardness in theory.      </td></tr>
     </tbody></table>
 
     <table id="Yulia Medvedeva">
@@ -167,6 +165,7 @@
                 12:00am
             </td>
             <td class="title">
+                TBA
             </td>
         </tr>
         <tr>
@@ -174,10 +173,9 @@
                 <a href="https://mbzuai.ac.ae/study/faculty/yulia-medvedeva/"><b>Yulia Medvedeva</b></a> (MBZUAI)
             </td>
         </tr>
-        <!-- <tr>
+        <tr>
             <td class="abstract">
-            ODEs/SDEs have recently gained significant attention in machine learning and causal inference. However, the theoretical aspects, for example, identifiability and asymptotic properties of statistical estimation are still obscure. In this presentation, I will present our recent results on identifiability of linear ODE/SDEs from observational data. These identifiability conditions are crucial in causal inference using linear ODE/SDEs as they enable the identification of the post-intervention distributions from its observational distribution. 
-        </td></tr> -->
+TBA        </td></tr>
     </tbody></table>
    
 
@@ -211,10 +209,13 @@
                 <a href="https://mbzuai.ac.ae/study/faculty/natasa-przulj/"><b>Natasa Przulj</b></a> (MBZUAI)
             </td>
         </tr>
-        <!-- <tr>
+        <tr>
             <td class="abstract">
-                We present and compare two new methods for generating prediction sets within the conformal prediction framework, each addressing the limitations of traditional approaches by targeting improved conditional coverage. The first method builds upon quantile regression to estimate the conditional quantile of conformity scores, which are then adjusted to account for local data structure. The second method integrates the flexibility of conformal methods with estimates of the conditional distribution label distribution . By extending the framework of probabilistic conformal prediction, this approach achieves approximately conditional coverage through prediction sets that adapt effectively to the behavior of the predictive distribution, even under high heteroscedasticity. Non-asymptotic bounds are derived to quantify conditional coverage error for both approaches. Extensive simulations demonstrate that each method significantly improves over traditional techniques, paving the way for more robust and adaptable prediction set generation across diverse applications.
-        </td></tr> -->
+                Large amounts of multi-omic data are increasingly becoming available. They provide complementary information about cells, tissues and diseases. We need to utilize them to better stratify patients into risk groups, discover new biomarkers and targets, re-purpose known and discover new drugs to personalize medical treatment. This is nontrivial, because of computational intractability of many underlying problems on large interconnected data (networks, or graphs), necessitating the development of new algorithms for finding approximate solutions (heuristics).
+
+We develop versatile artificial intelligence (AI) frameworks for multi-omics data fusion, constrained by the state-of-the-art network science methods, to address key challenges in precision medicine and pharmacology from time-series, multi-omics data, including patient-derived single-cell data, to: better stratify patients, predict new biomarkers and targets, re-purpose existing and discover new drugs; we apply these to different types of cancer, Covid-19, Parkinson’s and other diseases. Our new methods stem from graph-regularized non-negative matrix tri-factorization (NMTF), a machine learning (ML) technique for dimensionality reduction, inference, fusion and co-clustering of heterogeneous datasets, coupled with novel graphlet-based network science algorithms. We utilize our new frameworks for improving the understanding of the molecular organization of life and of diseases from the embedding spaces of omics data. Also, we utilize the local network topology to correct for the topological information missed by random walks used in many ML methods, and to enable embedding of multi-omics networks into more linearly separable spaces, allowing for their explainable and sustainable mining. The aim is to develop an overreaching framework encompassing all multi-omics data towards consumer-facing precision medicine products.
+
+        </td></tr>
     </tbody></table>
     
     <table id="Xihong Lin">
@@ -290,10 +291,10 @@
                 <a href="https://sites.google.com/site/rongmastat/home"><b>Rong Ma</b></a> (Harvard)
             </td>
         </tr>
-        <!-- <tr>
+        <tr>
             <td class="abstract">
-                Generative Flow Networks offer a framework for sampling from reward-proportional distributions in combinatorial and continuous spaces. By leveraging flow conservation principles, GFNs enable diverse exploration where traditional methods like MCMC struggle. This talk introduces the theoretical foundations of GFNs and highlights their practical applications in molecular design, protein structure prediction, and Bayesian network discovery. Special emphasis will be placed on recent advances in applying GFNs to improve the systematic exploration capabilities of large language models.
-        </td></tr> -->
+                Learning and representing low-dimensional structures from noisy, high-dimensional data is a cornerstone of modern biomedical data science. Stochastic neighbor embedding algorithms, a family of nonlinear dimensionality reduction and data visualization methods, with t-SNE and UMAP as two leading examples, have become especially influential in recent years, particularly in single-cell analysis. Yet despite their popularity, these methods remain subject to points of debate, including limited theoretical understanding, ambiguous interpretations, and sensitivity to tuning parameters. In this talk, I will present our recent efforts to decipher and improve these nonlinear embedding approaches. Our key results include a rigorous theoretical framework that uncovers the intrinsic mechanisms, large-sample limits, and fundamental principles underlying these algorithms; a set of theory-informed practical guidelines for their principled use in trustworthy biological discovery; and a collection of new algorithms that address current limitations and improve performance in areas such as bias reduction and stability. Throughout the talk, I will highlight how these advances not only deepen our statistical understanding but also open new avenues for biological insight.
+        </td></tr>
     </tbody></table>
 
     <table id="Salman Khan">
@@ -310,10 +311,10 @@
                 <a href="https://mbzuai.ac.ae/study/faculty/salman-khan/"><b>Salman Khan</b></a> (MBZUAI)
             </td>
         </tr>
-        <!-- <tr>
+        <tr>
             <td class="abstract">
-                Generative Flow Networks offer a framework for sampling from reward-proportional distributions in combinatorial and continuous spaces. By leveraging flow conservation principles, GFNs enable diverse exploration where traditional methods like MCMC struggle. This talk introduces the theoretical foundations of GFNs and highlights their practical applications in molecular design, protein structure prediction, and Bayesian network discovery. Special emphasis will be placed on recent advances in applying GFNs to improve the systematic exploration capabilities of large language models.
-        </td></tr> -->
+                TBA
+            </td></tr>
     </tbody></table>
     
     <table id="Ahmad Abdel-Azim">
@@ -330,10 +331,10 @@
                 <a href="https://ahmadabdel-azim.com/"><b>Ahmad Abdel-Azim</b></a> (Harvard)
             </td>
         </tr>
-        <!-- <tr>
+        <tr>
             <td class="abstract">
-                Generative Flow Networks offer a framework for sampling from reward-proportional distributions in combinatorial and continuous spaces. By leveraging flow conservation principles, GFNs enable diverse exploration where traditional methods like MCMC struggle. This talk introduces the theoretical foundations of GFNs and highlights their practical applications in molecular design, protein structure prediction, and Bayesian network discovery. Special emphasis will be placed on recent advances in applying GFNs to improve the systematic exploration capabilities of large language models.
-        </td></tr> -->
+                Generative AI has transformed content generation, and its promise for biomedicine is compelling. Genomic sequencing remains costly and scarce relative to phenotyping, and privacy restrictions further limit access. We introduce a scalable pipeline for the generation of high-fidelity genomes, building on the latent diffusion model architecture (e.g. Stable Diffusion). Genotypes are efficiently embedded in a regularized, informative latent space where a conditional diffusion model is subsequently trained; this enables the generation of high-fidelity genetic data, where fidelity is assessed with genomics-specific diagnostics. Practically, sampling from the learned genomic distribution provides “data on demand"; millions of high-fidelity genomes can be generated to power variant discovery, fine-mapping, and other analyses, hence facilitating more rapid discovery. Nevertheless, the challenge is not only the generative modeling of genomes, but how to use the generated data without corrupting downstream inference procedures and inducing bias. We introduce a synthetic augmentation framework that is robust to misspecification of the data generative models. Our proposed framework is guaranteed to be more efficient than standard estimation procedures based solely on the observed data, even when the generators are imperfect. Applied in simulations and the UK Biobank, the approach delivers higher-powered genetic analyses. More broadly, we establish a general framework for robust inference with generative modeling, extensible to other modalities, which can accelerate discovery while reducing data-collection costs and privacy risks.
+        </td></tr>
     </tbody></table>
 
     
